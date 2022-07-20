@@ -13,7 +13,7 @@ const Cards = (props) => {
                 />
             </div>
             <div className="bg-black text-white h-28">
-                <h2 className="lg:text-4xl p-4 font-bold">
+                <h2 className="lg:text-2xl p-4 font-bold">
                     {props.id}. {props.name}
                 </h2>
                 <h1>{props.created}</h1>
